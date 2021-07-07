@@ -24,8 +24,25 @@
         </ul>
         </nav>
      </header>
-     <main>
-         <h2>Titulo de prueba</h2>
+     <main class="mainContacto">
+         <h2 id="title-contact">Contacto</h2>
+         
+         <section class="section-form">
+            <form id="formulario-contacto">
+                <label>Nombre y Apellido</label>
+                <input class="inputs" type="text" placeholder="Juan Perez">
+                <label>Correo electronico</label>
+                <input class="inputs" type="email" placeholder="JuanPerez@email.com">
+                <label>Comentario</label>
+                <textarea class="campoComentario" rows="6" cols="50">"Hola!, me gustaría recibir información sobre el muñeco de Batman, ya que como saben soy muy fanático de bruce wayne.
+   
+                   Gracias!"</textarea>
+                <div class="botonBox">
+                    <button class="btnResetear" type="reset">Resetear</button>
+                    <button class="btnSubmit" type="submit">Entrar</button>
+                </div>
+            </form>
+         </section>
      </main>
      <footer>
         <p>Todos los derechos reservados a FRONT END</p>

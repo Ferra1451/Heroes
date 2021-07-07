@@ -156,6 +156,70 @@ footer {
     padding: 16px;
     text-align: center;
 }
+#formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    width: 31.25rem;
+    font-size: 1.5rem;
+   
+}
+.section-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+#title-contact{
+    text-align: center;
+    font-size: 4rem;
+}
+.inputs{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    height: 2rem;
+
+}
+.campoComentario{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.btnResetear{
+    background-color: rgb(151, 148, 148);
+    color: honeydew;
+    border-radius: 10px;
+    width: 15rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    border: none;
+    
+    
+}
+.btnSubmit{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 15rem;
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    border: none;
+}
+.botonBox{
+    display: flex;
+    justify-content: space-between;
+
+}
+.mainContacto{
+    margin-bottom: 15rem;
+}
+
 
 @media (min-width: 768px) {
 
